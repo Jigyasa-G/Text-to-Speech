@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Text to Speech</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css"> <!--CSS Page-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> <!--Font-->
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>Text to Speech</header>
+            <form action="#">
+                <div class="row">
+                    <label>Enter Text</label>
+                    <textarea placeholder="Text"></textarea>
+                </div>
+                <div class="row">
+                    <label>Select Voice</label>
+                    <div class="outer">
+                        <select>
+                            <option value="">English (United States)</option>
+                            <option value="">English (India)</option>
+                            <option value="">English (Australia)</option>
+                            <option value="">English (Great Britain)</option>
+                            <option value="">English (India)</option>
+                            <option value="">Deutsch (Deutschland)</option>                          
+                        </select>
+                    </div>
+                </div>
+                <button>Convert to Speech</button>
+            </form>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="script.js"></script>
+    </body>
+</html>
